@@ -21,6 +21,18 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>plugins-releases</name>
+        <url>http://http://54.89.246.39:8090//artifactory/plugins-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>plugins-snapshot</name>
+        <url>http://http://54.89.246.39:8090//artifactory/plugins-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
